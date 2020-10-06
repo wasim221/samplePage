@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grid Example</title>
+	<style type="text/css">
+		.grid-container {
+  			display: grid;
+  			/*grid-template-columns: auto;*/
+		}
+		.slots {
+  			background-color: #d6d2d9;
+  			border-radius: 10px;
+  			padding: 20px;
+  			margin: 10px;
+  			font-size: 30px;
+  			text-align: center;
+  			grid-column: 3 / 8;
+  		}
+
+  		.teams{
+  			background-color: #541985;
+  			color: white;
+  			padding: 10px;
+  			font-size: 20px;
+  			text-align: center;
+  			grid-row: 1 / 20;
+  		}
+  		.channel{
+  			background-color: #583178;
+  			color: white;
+  			padding: 10px;
+  			font-size: 20px;
+  			text-align: center;
+  			grid-row: 1 / 20;
+  		}
+
+	</style>
+</head>
+<body>
+	<HEADER><h1 style="text-align: center;">Database Header</h1></HEADER>
+	<div class="grid-container">
+		<div class="teams"> Teams 
+			<div><a style="color: white" href="ttable.html" target="chl"> table </a></div>
+		</div>
+		<div class="channel"> Channels
+			<div>
+				<frameset>
+					<frame src="wdl2.html" name="chl"></frame>
+				</frameset>
+			</div>
+		</div>
+		<div class="slots"></div>
+		<div class="slots"></div>
+		<div class="slots"></div>
+		<div class="slots"></div>
+		<div class="slots"></div>
+		<div class="slots"></div>
+		<div class="slots"></div>
+		<div class="slots"></div>
+		<div class="slots"></div>
+		<div class="slots"></div>
+		<div class="slots"></div>
+		<div class="slots"></div>
+		<div class="slots"></div>
+		<div class="slots"></div>
+		<div class="slots"></div>
+		<div class="slots"></div>
+	</div>
+	<footer><h1 style="text-align: center;">Database Footer</h1></footer>
+</body>
+</html>
